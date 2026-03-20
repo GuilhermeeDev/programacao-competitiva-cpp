@@ -1,1 +1,2 @@
-# progromacao-competitiva-cpp
+## Programação competitiva usando C++
+Este é meu repositório pessoal documentando resolução de problemas de nivel médio/dificil de programação competitiva com base na minha experiência. Fique avontade para ler as minhas resoluções.
