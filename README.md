@@ -1,2 +1,2 @@
 ## Programação competitiva usando C++
-Este é meu repositório pessoal documentando resolução de problemas de nivel médio/dificil de programação competitiva com base na minha experiência. Fique avontade para ler as minhas resoluções.
+Este é meu repositório pessoal documentando resolução de problemas de nivel médio/dificil de programação competitiva e resolução de problemas para treino como BeeCrowdcom. Fique avontade para ler as minhas resoluções.
