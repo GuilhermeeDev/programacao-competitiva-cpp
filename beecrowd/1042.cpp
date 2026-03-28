@@ -1,51 +1,23 @@
-#include <stdio.h>
 #include <iostream>
+#include <algorithm>
 using namespace std;
 
 int main() {
-    int a,b,c,ai,bi,ci;
+    int a, b, c;
     cin >> a >> b >> c;
-    ai = a;
-    bi = b;
-    ci = c;
 
-    if (a >= b){
-        if (b >= c){
-            a = ci;
-            c = ai;
-        }
-        else{
-            a = bi;
-            b = ci;
-            c = ai; 
-        }
-    }
+    int original[3] = {a, b, c};
+    int ordenado[3] = {a, b, c};
 
-    else if (b >= c){
-        if (a >= c){
-            a = ci;
-            b = ai;
-            c = bi;
-        }
-        else {
-            a = ai;
-            b = ci;
-            c = bi;
-        }
-    }
+    sort(ordenado, ordenado + 3);
 
-    else{
-        a = ai;
-        b = bi;
-        c = ci;
-    }
+    for (int i = 0; i < 3; i++)
+        cout << ordenado[i] << endl;
 
-    cout << a << endl;
-    cout << b << endl;
-    cout << c << endl;
-    cout << " " << endl;
-    cout << ai << endl;
-    cout << bi << endl;
-    cout << ci << endl;
+    cout << endl;
+
+    for (int i = 0; i < 3; i++)
+        cout << original[i] << endl;
+
     return 0;
 }
