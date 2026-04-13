@@ -5,7 +5,3 @@ Este é meu repositório pessoal documentando resolução de problemas de nivel 
 - [Usaco guide](https://usaco.guide/dashboard)
 - [BeeCrowd](https://judge.beecrowd.com/pt/profile/1125033)
 - [CodeForces](https://codeforces.com/profile/LendaLendaria)
-
-## Materiais de estudo
-
-## Ferramentas 
